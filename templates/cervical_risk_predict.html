@@ -1,0 +1,42 @@
+{% include 'cervical_risk_index.html' %}
+
+
+<head>
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+     <script src="{{ url_for('static',filename='js/jquery.bpopup.min.js') }}"></script>
+ </head> 
+ <body>
+<style>
+#popup_this {
+    top: 50%;
+    left: 50%;
+    text-align:center;
+    margin-top: -50px;
+    margin-left: -100px;
+    position: fixed;
+    background: #fff;
+    padding: 30px;
+}
+.b-close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+    color: #fff;
+    background: #ff0000;
+    padding: 5px 10px;
+}
+</style>
+<div id="popup_this">
+    <span class="button b-close">
+        <span>X</span>
+    </span>
+    <br>  {{ prediction_text }} </br>
+</div>
+
+ <script>
+$( document ).ready(function() {
+    $('#popup_this').bPopup();
+});
+</script>
+</body>   

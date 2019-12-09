@@ -1,0 +1,27 @@
+{% extends 'prostate_visu_base.html' %}
+{% block content %}
+    {% include 'prostate_visu_navbar.html' %}
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col-6">
+                <p>The following are graphical representations of the prostate survival dataset.
+                <p>The first graph shows the number of patients who survived and those who did not survive relative to their cancer stages.
+                <p>Second graph shows the number of patients relative to their race.
+                <p>The last graph shows the number of patients based on age relative to their cancer stages
+            </div>
+            <div class="col-6">
+                {{ div_survived_chart|safe }}
+            </div>
+        </div>
+        <div class="row mt-5">
+            {{ div_title_chart|safe }}
+        </div>
+        <div class="row mt-5">
+            {{ div_hist_age|safe }}
+        </div>
+    </div>
+
+    {{ script_survived_chart|safe }}
+    {{ script_title_chart|safe }}
+    {{ script_hist_age|safe }}
+{% endblock %}

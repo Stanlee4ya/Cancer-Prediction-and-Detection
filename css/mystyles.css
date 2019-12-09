@@ -1,0 +1,203 @@
+*{
+        font-family: arial, san-serif;
+}
+
+.heading{
+text-align: center;
+text-shadow: 10px;
+color: 050921;
+
+}
+
+.myicons{
+margin: auto;
+float: right;
+ cursor: pointer;
+
+}
+#profile-container{
+ width: 150px;
+    height: 150px;
+    overflow: hidden;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+
+}
+#profile-container img {
+    width: 150px;
+    height: 150px;
+}
+#imageUpload
+{
+    display: none;
+}
+.modal-content{
+	height: 105%;
+	width: 140%
+}
+.modal-dialog{
+	height: 95%;
+}
+.mytable{
+
+	width:100px;
+	
+	white-space: nowrap;
+
+}
+#profileImage
+{
+    cursor: pointer;
+}
+
+#mymodal2{
+height: 10%;
+	width: 30%	
+}
+
+.visible{
+	visibility: hidden;
+	display: none;
+}
+
+/* Dropdown Button */
+.dropbtn {
+   /* background-color: #4CAF50;*/
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+/* menu buttons*/
+.btn-default{
+    background-color: maroon;
+}
+.display{
+    display: hidden;
+}
+.button {
+        margin: 1em;
+        padding: 1em;
+    }
+.pagedisp{
+    font-family: "Times New Roman";
+    font-style: normal;
+    font-size: 150%
+}
+.form-control{
+    font-family: "Times New Roman";
+    font-style: normal;
+    font-size: 130%
+}
+.submitbtn{
+    font-family: "georgia";
+    font-size: 130%
+}
+.submenu{
+   background-color: #C9A229;
+
+}
+.btnalign{
+   float: right;
+}
+.colum{
+    width: 60%;
+    float: left;
+}
+.colum1{
+   
+    float: left;
+    width: 40%;
+}
+
+/* csss for search */
+body{
+
+  padding:20px 20px;
+
+}
+
+
+
+
+
+.counter{
+
+  padding:8px; 
+  color:#ccc;
+}
+/* enable absolute positioning */
+.inner-addon { 
+    position: relative; 
+}
+
+/* style icon */
+.inner-addon .glyphicon {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+
+/* align icon */
+.left-addon .glyphicon  { left:  0px;}
+.right-addon .glyphicon { right: 0px;}
+
+/* add padding  */
+.left-addon input  { padding-left:  30px; }
+.right-addon input { padding-right: 30px; }
+#srch_icon {
+    height:32px;
+    width:32px;
+}
+
+.img{
+    float:right;
+    padding-top: 20px;
+
+}
+.bg1{
+    background-image: url('images/club2.jpg');
+
+}
+
